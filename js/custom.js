@@ -60,6 +60,7 @@ $(document).ready(function() {
 
 
     container.isotope({
+	itemSelector: '.portfolio-item',
         animationEngine: 'best-available',
         animationOptions: {
             duration: 200,
